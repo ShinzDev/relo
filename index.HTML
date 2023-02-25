@@ -11,17 +11,19 @@
 
              *{
                 background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
              }
 
              div {
-                 margin-top: 15%;
-                 margin-left: 36%;
+                 margin-top: 20vh;
+                 margin-left: 24vw;
                 
             }
 
 
             h1{
-                font-size: 27px;
+                font-size: 25px;
+                color:#202124;
             }
 
             .link{
@@ -43,13 +45,31 @@
                 margin-top: 50px;
             }
 
+            .btn2{
+                border: 2px solid  rgb(0, 0, 0);
+                padding: 10px 20px;
+                background-color:#800808;
+                color: #000000;
+                border-radius: 10px;
+                margin-top: 50px;
+                margin-right: 50vw;
+            }
+            /* amd a10-9600  RADEON R5 10 COMPUTE CORE 4C + 6GB 2.40GHZ */
 
             @media(max-width:760px  ){
                 
                 div{
                     justify-items: center;
-                    margin-top: 79px;
+                    margin-top:30vh;
+                    margin-left: 10vw;
                 }
+
+
+                .btn2{
+                    display: none;
+                }
+
+
             }
 
     </style>
@@ -62,12 +82,13 @@
             <img src="reloads.png" alt="">
         
             <h1>This site can’t be reached</h1>
-            <p>Check if there is a typo in glovo.com.</p>
+            <p class="h1"  >Check if there is a typo in glovo.com.</p>
             <p>If spelling is correct, <a href=""   class="link" >   try running windows network Diagnostics.</a></p>
             <p  id="dns" >DNS_PROBE_FINISHED_NXDOMAIN</p>
 
 
             <a href="glovo logo.png"> <button class="btn" >Reload</button> </a>
+            <a href=""> <button class="btn2" >Details</button> </a>
 
         </div>
 
